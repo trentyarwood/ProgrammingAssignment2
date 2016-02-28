@@ -1,3 +1,17 @@
+## R Programming Assignment - Week 3
+## Trent Yarwood
+##
+## mat <- matrix(c(2,0,0,2), 2,2)
+## m1 <- makeCacheMatrix(mat)
+## cacheSolve(m1)
+##
+##        [,1] [,2]
+## [1,]  0.5  0.0
+## [2,]  0.0  0.5
+##
+##
+
+
 makeCacheMatrix <- function(x = matrix()) {
      i <- NULL ##initialise the inverse matrix
      
